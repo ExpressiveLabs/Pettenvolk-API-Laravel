@@ -11,6 +11,7 @@ This is the official package to integrate the Pettenvolk API with your Laravel a
 3. [Usage](#usage)<br/>
 ⋅⋅1. [Authentication](#authentication)
 4. [Bugs](#bugs)
+5. [Some final notes](#some-final-notes)
 
 ## Installation
 ### Using Composer
@@ -26,7 +27,7 @@ Authenticating users with Pettenvolk Passport is a breeze.
 ## Bugs
 Found a bug? Message us at bugs@pettenvolk.com or fill out the bug report form in your Pettenvolk Tester Environment.
 
-## Some last information
+## Some final notes
 This API is constantly monitored and implementations are often checked on compliance to the API terms. We store every request made to this API, together with some additional details like returned status codes, in order to ensure the best possible experience when using our API service.
 
 Want to know how to fully comply to the API terms? Read https://www.pettenvolk.com/legal/api for more information.
