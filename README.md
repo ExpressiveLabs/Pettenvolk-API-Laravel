@@ -47,30 +47,31 @@ Authenticating users with Pettenvolk Passport is a breeze. For authentication us
 ```php
 // Start function
 public function authenticateWithPettenvolk($request Request) {
-  // Search API for user
-  $auth = Pettenvolk::auth($request->email, $request->password);
+   // Search API for user
+   $pettenvolk = new Pettenvolk;
+   $auth = $pettenvolk->auth($request->email, $request->password);
   
-  // Search own DB for user
-  $user = User::where('pettenvolk_uid', $auth->id)->first();
+   // Search own DB for user
+   $user = User::where('pettenvolk_uid', $auth->id)->first();
   
-  // If no user is found, create user
-  if(!$user) {
-    $create = new User;
-    $create->email = $auth->email;
-    $create->password = $auth->password;
-    $create->pettenvolk_uid = $auth->id;
-    $create->pettenvolk_api_token =$auth->api_token;
-    // Your user code ...
-    $create->save();
-  }
-  
-  // Update the user's API token
-  $user->update(['pettenvolk_api_token' => $auth->api_token]);
-  
-  // Authenticate the user
-  Auth::loginUsingId($user->id);
-  
-  // Perform your redirects and/or other authentication functions
+   // If no user is found, create user
+   if(!$user) {
+      $create = new User;
+      $create->email = $auth->email;
+      $create->password = $auth->password;
+      $create->pettenvolk_uid = $auth->id;
+      $create->pettenvolk_api_token =$auth->api_token;
+      // Your user code ...
+      $create->save();
+   }
+
+   // Update the user's API token
+   $user->update(['pettenvolk_api_token' => $auth->api_token]);
+
+   // Authenticate the user
+   Auth::loginUsingId($user->id);
+
+   // Perform your redirects and/or other authentication functions
 }
 ```
 
