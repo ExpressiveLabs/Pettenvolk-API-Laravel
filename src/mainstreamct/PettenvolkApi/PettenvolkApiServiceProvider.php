@@ -14,7 +14,7 @@ class PettenvolkApiServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'mainstreamct\pettenvolk-api\pettenvolk-conf.php' => config_path('pettenvolk.php'),
+            __DIR__.'\pettenvolk-conf.php' => config_path('pettenvolk.php'),
         ]);
     }
 
@@ -25,6 +25,6 @@ class PettenvolkApiServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('mainstreamct\pettenvolk-api\PettenvolkApiController');
+        $this->app->make('mainstreamct\PettenvolkApi\PettenvolkApiController');
     }
 }
