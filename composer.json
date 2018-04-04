@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "mainstreamct\\pettenvolk-api\\": "vendor/mainstreamct/pettenvolk-api/src/"
+            "mainstreamct\\pettenvolk-api\\": "src/"
         }
     },
     "extra": {
