@@ -31,5 +31,5 @@ This API is constantly monitored and implementations are often checked on compli
 
 Want to know how to fully comply to the API terms? Read https://www.pettenvolk.com/legal/api for more information.
 
-Copyright © 2018 MainstreamCT
+Copyright © 2018 MainstreamCT<br/>
 This package is published under the GNU AGPLv3 license. Additional API terms apply.
