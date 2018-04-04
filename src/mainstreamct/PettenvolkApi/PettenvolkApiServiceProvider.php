@@ -1,6 +1,6 @@
 <?php
 
-namespace mainstreamct\pettenvolk-api;
+namespace mainstreamct\PettenvolkApi;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace mainstreamct\pettenvolk-api;
+namespace mainstreamct\PettenvolkApi;
 
 class Pettenvolk {
     public function auth($email, $password) {

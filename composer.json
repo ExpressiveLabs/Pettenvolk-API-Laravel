@@ -14,16 +14,16 @@
     },
     "autoload": {
         "psr-4": {
-            "mainstreamct\\pettenvolk-api\\": "src/"
+            "mainstreamct\\PettenvolkApi\\": "src/mainstreamct/PettenvolkApi/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "mainstreamct\\pettenvolk-api\\PettenvolkApiServiceProvider"
+                "mainstreamct\\PettenvolkApi\\PettenvolkApiServiceProvider"
             ],
             "aliases": {
-                "Pettenvolk": "mainstreamct\\pettenvolk-api\\Pettenvolk"
+                "Pettenvolk": "mainstreamct\\PettenvolkApi\\Pettenvolk"
             }
         }
     }

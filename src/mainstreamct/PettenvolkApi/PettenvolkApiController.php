@@ -1,6 +1,6 @@
 <?php
 
-namespace mainstreamct\pettenvolk-api;
+namespace mainstreamct\PettenvolkApi;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
