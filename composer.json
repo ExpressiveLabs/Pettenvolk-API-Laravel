@@ -1,0 +1,25 @@
+{
+    "name": "mainstreamct/pettenvolk-api",
+    "description": "The official Laravel integration for the Pettenvolk API.",
+    "license": "GNU AGPLv3",
+    "authors": [
+        {
+            "name": "MainstreamCT",
+            "email": "info@mainstreamct.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "~3.0",
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "mainstreamct\\pettenvolk-api\\PettenvolkApiServiceProvider"
+            ],
+            "aliases": {
+                "Pettenvolk": "mainstreamct\\pettenvolk-api\\Pettenvolk"
+            }
+        }
+    }
+}
