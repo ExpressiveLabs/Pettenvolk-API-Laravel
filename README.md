@@ -16,6 +16,19 @@ This is the official package to integrate the Pettenvolk API with your Laravel a
 
 ## Installation
 ### Using Composer
+First of all, install the package. Y'all know the drill, but as a reminder:<br/>
+```composer require mainstreamct/pettenvolk-api```
+
+After installing, edit your config/app.php:
+```php
+   // Providers array:
+   mainstreamct\PettenvolkApi\PettenvolkApiServiceProvider::class,
+   
+   // Aliases array:
+   'Pettenvolk' => mainstreamct\PettenvolkApi\Pettenvolk::class,
+```
+...and execute the following command:<br/>
+```php artisan vendor:publish```
 
 ## Configuration
 1. Get your API key at https://www.pettenvolk.com/developer
