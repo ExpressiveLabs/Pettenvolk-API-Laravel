@@ -6,11 +6,13 @@ This is the official package to integrate the Pettenvolk API with your Laravel a
 
 ## Table of contents
 1. [Installation](#installation)
+⋅⋅1. [Using Composer](#using_composer)
 2. [Configuration](#configuration)
 3. [Usage](#usage)
 4. [Bugs](#bugs)
 
 ## Installation
+### Using Composer
 
 ## Configuration
 
