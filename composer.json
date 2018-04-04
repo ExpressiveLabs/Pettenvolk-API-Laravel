@@ -1,7 +1,7 @@
 {
     "name": "mainstreamct/pettenvolk-api",
     "description": "The official Laravel integration for the Pettenvolk API.",
-    "license": "GNU AGPLv3",
+    "license": "AGPL-3.0-or-later",
     "authors": [
         {
             "name": "MainstreamCT",
