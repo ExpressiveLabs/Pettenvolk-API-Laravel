@@ -2,7 +2,7 @@
 Recommended tools to complete this integration:<br/>
 ☕🎶💻⏰
 
-This is the official package to integrate the Pettenvolk API with your Laravel application. API keys can be acquired using the Pettenvolk Developer Tools at https://www.pettenvolk.com/developer (currently only available to invited testers).
+This is the official package to integrate the Pettenvolk API (a.k.a. Chameleon) with your Laravel application. API keys can be acquired using the Pettenvolk Developer Tools at https://www.pettenvolk.com/developer (currently only available to invited testers). Docs for this API can be found at https://chameleon.pettenvolk.com.
 
 ## Table of contents
 1. [Installation](#installation)<br/>
