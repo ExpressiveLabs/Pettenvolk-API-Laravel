@@ -1,4 +1,6 @@
 # Pettenvolk API for Laravel
+### Depreciation notice: the Pettenvolk API is moving to Laravel Passport authentication. For authenticating your users using their Pettenvolk account, refer to the Passport documentation. A complete overview of API endpoints will be available in the developer portal in the near future.
+
 Recommended tools to complete this integration:<br/>
 ☕🎶💻⏰
 
